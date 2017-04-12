@@ -1,0 +1,19 @@
+SensorNode_003 <- {
+    "LED_BLUE" : hardware.pinP,
+    "LED_GREEN" : hardware.pinU,
+    "SENSOR_I2C" : hardware.i2cAB,
+    "TEMP_HUMID_I2C_ADDR" : 0xBE,
+    "ACCEL_I2C_ADDR" : 0x32,
+    "PRESSURE_I2C_ADDR" : 0xB8,
+    "RJ45_ENABLE_PIN" : hardware.pinS,
+    "ONEWIRE_BUS_UART" : hardware.uartDM,
+    "RJ45_I2C" : hardware.i2cFG,
+    "RJ45_UART" : hardware.uartFG,
+    "WAKE_PIN" : hardware.pinW,
+    "ACCEL_INT_PIN" : hardware.pinT,
+    "PRESSURE_INT_PIN" : hardware.pinX,
+    "TEMP_HUMID_INT_PIN" : hardware.pinE,
+    "NTC_ENABLE_PIN" : hardware.pinK,
+    "THERMISTER_PIN" : hardware.pinJ,
+    "FTDI_UART" : hardware.uartQRPW
+}
