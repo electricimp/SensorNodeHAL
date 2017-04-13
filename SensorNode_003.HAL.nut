@@ -5,7 +5,7 @@ SensorNode_003 <- {
     "TEMP_HUMID_I2C_ADDR" : 0xBE,
     "ACCEL_I2C_ADDR" : 0x32,
     "PRESSURE_I2C_ADDR" : 0xB8,
-    "RJ12_ENABLE_PIN" : hardware.pinS,
+    "RJ12_PWR_EN_PIN" : hardware.pinS,
     "ONEWIRE_BUS_UART" : hardware.uartDM,
     "RJ12_I2C" : hardware.i2cFG,
     "RJ12_UART" : hardware.uartFG,
@@ -13,7 +13,8 @@ SensorNode_003 <- {
     "ACCEL_INT_PIN" : hardware.pinT,
     "PRESSURE_INT_PIN" : hardware.pinX,
     "TEMP_HUMID_INT_PIN" : hardware.pinE,
-    "NTC_ENABLE_PIN" : hardware.pinK,
+    "THERMISTER_EN_PIN" : hardware.pinK,
     "THERMISTER_PIN" : hardware.pinJ,
-    "FTDI_UART" : hardware.uartQRPW
+    "FTDI_UART" : hardware.uartQRPW, 
+    "PWR_EN_3V3" : hardware.pinY
 }
