@@ -16,5 +16,6 @@ SensorNode_003 <- {
     "THERMISTER_EN_PIN" : hardware.pinK,
     "THERMISTER_PIN" : hardware.pinJ,
     "FTDI_UART" : hardware.uartQRPW, 
-    "PWR_EN_3V3" : hardware.pinY
+    "PWR_EN_3V3" : hardware.pinY, 
+    "BATTERY" : hardware.pinH
 }
